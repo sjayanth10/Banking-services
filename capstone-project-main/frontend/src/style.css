@@ -1,0 +1,170 @@
+body{
+    background-color: #5a287d !important;
+}
+
+.formrow{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: #630973 !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-group{
+    margin-top: 1rem;
+}
+
+.form-group label {
+    display: block; 
+    text-align: left;
+    margin: 0.75rem;
+    color:#630973 !important;
+}
+
+.btn-primary {
+    background-color: #420f5f !important; /* Set the button background color to purple */
+    color: white; /* Set the text color to white */
+    margin: 1.5rem;
+    font-weight: bolder !important;
+    border: none !important;
+    padding: 1rem !important;
+    /* padding-left: 2rem !important;
+    padding-right: 2rem !important; */
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+    border-radius: 40px; /* This value can be adjusted as needed for the desired pill shape */
+}
+
+.personalcontainer{
+    min-height:80vh
+}
+
+.recentTransactions{
+    color:white !important;
+}
+
+.button-block{
+    background-color: #630973 !important;
+    color: white !important;
+}
+
+.btn-block:hover{
+    background-color: white !important;
+    color:#630973 !important;
+}
+
+.btn-block:hover .transfername{
+    color:#630973 !important;
+}
+
+.transfername{
+    color:white !important;
+    font-size: 1.25rem;
+}
+
+.badge{
+    background-color: #420f5f;
+    border: 0.1rem white dashed;
+}
+
+.SelfTransfer{
+    color:white;
+}
+
+.addnewcard{
+    background:none ;
+    border: 20px white dashed;
+    color:white;
+}
+
+.TransactionsList{
+    color:white
+}
+
+th{
+    color:#630973 !important;
+}
+
+thead{
+    height: 3rem;
+}
+
+.Balance-Check{
+    color:#630973 !important;
+}
+
+.selected-card {
+    border: 0.2rem #420f5f !important;
+  }
+
+  .modal-title-custom{
+    color:#630973;
+  }
+  
+  input{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+  }
+
+  .card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px #420f5f(245, 243, 243, 0.25)
+  }
+  textarea{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.Transactions{
+    margin-bottom: 3rem;
+    min-height: 100vh;
+}
+
+.table{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.addaccount{
+    min-height: 80vh;
+}
+
+.profilecontainer{
+    min-height: 80vh;
+    margin-top: 5rem;
+}
+
+
+.login-container{
+    min-height: 90vh;
+    height: max-content;
+    margin-top: 5rem;
+}
+
+.nav-item {
+    background-color: transparent; /* Remove the default background color */
+}
+
+.nav-link.active {
+    background-color: #420f5f !important; /* Set the background color when the tab is active */
+    color: white; /* Set the text color when the tab is active */
+    border-radius: 0;
+}
+
+.nav-link {
+    color: white; /* Set the default text color for the tab titles */
+    border-radius: 0;
+}
+
+  .SelfTransfer > .container >h1{
+    font-size: 3rem;
+  }
+
+  .table{
+    border-radius: 10px !important;
+  }
+  
+  

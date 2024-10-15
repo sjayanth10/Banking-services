@@ -1,0 +1,48 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/users/**
+
+        - id: account-service
+          uri: lb://ACCOUNT-SERVICE
+          predicates:
+            - Path=/accounts/**
+
+        - id: transfer-service
+          uri: lb://TRANSFER-SERVICE
+          predicates:
+            - Path=/transfer/**
+
+        - id: creditcard-service
+          uri: lb://CREDITCARD-SERVICE
+          predicates:
+            - Path=/creditcard/**
+
+        - id: loan-service
+          uri: lb://LOAN-SERVICE
+          predicates:
+            - Path=/loans/**
+
+        - id: insurance-service
+          uri: lb://INSURANCE-SERVICE
+          predicates:
+            - Path=/insurances/**
+
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+

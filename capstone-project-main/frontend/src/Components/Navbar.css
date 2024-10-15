@@ -1,0 +1,384 @@
+/* Navbar styling */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #420f5f; /* Adjust background color as needed */
+    color: white; /* Adjust text color as needed */
+}
+
+.navbar-logo img {
+    width: 50px; /* Adjust logo width as needed */
+    height: auto;
+}
+
+.navbar-links a {
+    margin-right: 10px; /* Adjust the margin between links as needed */
+    text-decoration: none;
+    color: white; /* Adjust link color as needed */
+}
+.navbar-space {
+    flex-grow: 1; /* Let it grow and take up available space */
+}
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc; /* Adjust border styles as needed */
+    border-radius: 3px;
+}
+
+.navbar-search button {
+    padding: 5px 10px;
+    background-color: #7d0bc4; /* Adjust button background color as needed */
+    color: white; /* Adjust button text color as needed */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px; /* Adjust the margin between input and button as needed */
+}
+.content {
+    display: flex;
+    align-items: center;
+    background-color: #6f359b;
+    height: 40vh;
+  }
+  
+  .left-column {
+    flex: 1;
+    height: 100%;
+  }
+  
+  .right-column {
+    flex: 1;
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  /* Additional styling for quote and buttons */
+  .quote {
+    color:white !important;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    font-style: italic; /* Adjust margin as needed */
+  }
+  
+  .tquote{
+    color:#420f5f;
+  }
+  .bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  .card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove card border and box shadow */
+  .card {
+    border: none;
+    
+  }
+  
+  .buttons button {
+    margin-bottom: 40px;
+    margin-top: -5px; /* Add more space between the buttons */
+    padding: 20px 40px; /* Increase button size */
+    background-color: rgb(113, 7, 170); /* Change button color to purple */
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+    border-radius: 20px; /* Add curve to button shape */
+    cursor: pointer;  /* Add margin as needed */
+  }
+  .buttons button:hover {
+    background-color: #6b38ff; /* Change button color on hover */
+  }
+  .buttons button.login {
+    margin-right: 80px; /* Adjust margin as needed */
+  }
+  
+  /* Search form styling */
+  .form-control,
+  .btn-outline-success {
+    background-color: white;
+    color: #7406b8;
+    border-color: white;
+  }
+  /* Your CSS file */
+
+
+  
+  
+  
+  
+  /* Style for the login box */
+  .center-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the container cover the entire viewport height */
+  }
+  /* Add margin to the bottom of the form content */
+#formcontent {
+    margin-bottom: 80px; /* Adjust the margin as needed */
+  }
+  
+.quote{
+  color:#5a287d;
+}
+  .loginformrow{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-bottom: 0.25rem;
+    color: #630973 !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 5rem;
+  }
+.login-form{
+  margin-top: 2rem;
+  width:80%;
+  margin-left: 3rem;
+}
+.login-functions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  /* Header styling */
+  .container h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-center {
+    margin-top: 20px;
+  }
+  
+  .btn-curved {
+    border-radius: 100px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+  
+  /* Footer styling */
+  .footer-sec {
+    background-color: #330066;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container1 {
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-4 {
+    flex-grow: 1;
+  }
+  
+  .btn-floating {
+    font-size: 1.25rem;
+    margin: 5px;
+  }
+  
+  /* Adjust padding for mobile devices */
+  @media (max-width: 768px) {
+    .container1 {
+      padding: 10px;
+    }
+  }
+  
+  /* Add more responsive styling as needed */
+  .registercontainer{
+    margin-left:6rem;
+  }
+
+  
+  .footer {
+    display: flex;
+    background-color: #420f5f;
+    color: white;
+    padding: 20px 0;
+    align-items: center;
+    
+   }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+  }
+  
+  .footer-line {
+    border: 0.25rem solid white;
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+  }
+  
+  .footer-icons {
+    display: flex;
+  }
+  
+  .footer-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-icon:hover {
+    color: #1da1f2; /* Change color on hover */
+  }
+
+ .social-icon-box{
+  border-radius: 1rem;
+  margin-left:0.25rem;
+ }
+
+
+
+.footerlinkfonts a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5rem /* Add margin to create space horizontally */
+}
+
+/* Navbar.css */
+
+/* Navbar background color and font color */
+.navbar {
+  background-color: #5a287d;
+  height: max-content;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Logo and title styling */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  width: 40px; /* Adjust the image size as needed */
+  margin-right: 10px; /* Add some spacing between the logo and title */
+  vertical-align: middle; /* Vertically align the image with text */
+}
+
+/* Nav items styling */
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Add spacing between nav items */
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Font color for nav links */
+}
+
+/* Dropdown menu styling */
+.navbar-nav .dropdown-menu {
+  background-color: #5a287d; /* Background color for the dropdown menu */
+}
+
+.navbar-nav .dropdown-item {
+  color: white !important; /* Font color for dropdown items */
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: #4c236a; /* Background color on hover */
+  color: white !important; /* Font color on hover */
+}
+
+/* Add this CSS to your stylesheet */
+
+.profilecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #441475;
+  color: white;
+}
+
+/* Add media queries for responsive design if needed */
+@media (max-width: 768px) {
+  .profilecontainer {
+    justify-content: center;
+  }
+  
+  .col-md-4 {
+    flex-basis: 100%; /* Cards take up full width on smaller screens */
+    max-width: 100%; /* Cards are full width on smaller screens */
+  }
+}
